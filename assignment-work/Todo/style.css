@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #d8d0ed;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-color: #d8d0ed;
+}
+
+.list-group-item {
+    background-color: white;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 1px;
+    color: #6c757d;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+    color: #adb5bd;
+}
+
+.delete-btn {
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.delete-btn:hover {
+    color: #c82333;
+}
