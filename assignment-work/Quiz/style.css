@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .quiz-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+  }
+  .form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.25em;
+  }
+  .form-check-label {
+    padding-left: 0.5em;
+  }
+  .btn-submit,
+  .btn-next {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+  }
+  .btn-submit:hover,
+  .btn-next:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+  }
+  #resultContainer {
+    display: none;
+  }
